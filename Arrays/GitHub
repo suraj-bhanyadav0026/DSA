@@ -1,0 +1,7 @@
+Quick mental model 🧠
+
+git add → “I want to include these changes”
+
+git commit -M → “Save a snapshot locally”
+
+git push → “Send it to GitHub”
