@@ -14,7 +14,7 @@ public class Basic1 {
             arr[j] = sc.nextInt();
         }
 
-        System.out.println("Array elements are:");
+        System.out.print("Array elements are: ");
         for (int i = 0; i < 7; i++) {
             System.out.print(arr[i] + " ");
         }
