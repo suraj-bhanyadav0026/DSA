@@ -7,7 +7,6 @@ public class Max_ElementOfArr {
         System.out.print("Enter the size of array: ");
         int bhan = raj.nextInt();
 
-
         int arr [] = new int[bhan];
         int max = arr[0];
 
