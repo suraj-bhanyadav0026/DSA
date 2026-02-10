@@ -8,9 +8,11 @@ public class Min_ElementOfArr{
         int bhan = raj.nextInt();
 
         int [] arr = new int[bhan];
-        int min = arr[0];
+        System.out.print("Enter the 0th index element: ");
+        arr[0] = raj.nextInt();
+        int min = arr[0];   
         
-        for (int i = 0; i <bhan; i++){
+        for (int i = 1; i <bhan; i++){
             System.out.print("Enter the " + i+"th index element: ");
             arr[i] = raj.nextInt();
             if (arr[i]<min){
@@ -18,7 +20,7 @@ public class Min_ElementOfArr{
             }
 
         }
-        System.out.println("The min' number from array is: "+min);
+        System.out.println("The minimum number from array is: "+min);
         raj.close();
     }
 
