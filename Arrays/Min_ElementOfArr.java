@@ -10,7 +10,7 @@ public class Min_ElementOfArr{
         int [] arr = new int[bhan];
         System.out.print("Enter the 0th index element: ");
         arr[0] = raj.nextInt();
-        int min = arr[0];   
+        int min = arr[0];
         
         for (int i = 1; i <bhan; i++){
             System.out.print("Enter the " + i+"th index element: ");
