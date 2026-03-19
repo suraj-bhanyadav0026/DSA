@@ -20,10 +20,10 @@ public class Data_types {
             arr[i] = iam.nextDouble();
 
             System.out.print("Enter the " + i + "th char: ");
-            arr1[i] = iam.next().charAt(0);   // ✅ FIXED
+            arr1[i] = iam.next().charAt(0);   //  FIXED
 
             System.out.print("Enter the " + i + "th String: ");
-            arr2[i] = iam.next();   // ✅ Works perfectly
+            arr2[i] = iam.next();   //  Works perfectly
         }
 
         // Printing double array
