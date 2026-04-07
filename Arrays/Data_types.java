@@ -6,7 +6,7 @@ public class Data_types {
 
         Scanner iam = new Scanner(System.in);
 
-        System.out.print("Enter the size of array: ");
+        System.out.print("Enter the size of array, char & String: ");
         int bhan = iam.nextInt();
 
         double[] arr = new double[bhan];

@@ -4,4 +4,4 @@ git add → “I want to include these changes”
 
 git commit -m → “Save a snapshot locally”
 
-git push → “Send it to GitHub”
+git push → “Send it to GitHub”   
